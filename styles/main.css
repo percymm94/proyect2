@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h2 {
+    font-size: 24px;
+    border-left: 3px solid #c8c8c8;
+    padding-left: 15px;
+}
+body{
+    font-family: Arial;
+    font-size: 13px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: auto;
+    height: 64px;
+    padding: 20px; 
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+header li {
+    margin-left: 20px;
+}
+header .axel {
+    border-bottom: 5px solid green;
+}
+
+header a {
+    color: white;
+}
+/**dando estilos al main*/
+
+main .main{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0 35px;
+}
+main .hola{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+main .hola img {
+    border-radius: 100%;
+    margin: 20px;
+}
+main .hola p {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    text-align: justify;
+    padding-right:30px;
+    color: #000000;
+}
+ main .hola ul {
+    display: flex;
+    align-items: center;
+    height: 64px;
+ }
+ main .hola li {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 20px;
+ }
+ /*dando estilos a los iconos*/
+ main .twiter {
+     background: #1ea1f2;
+     line-height:40px;
+     text-align: center;
+ }
+ main .fabtwiter {
+    color: white;
+    font-size: 25px;
+ }
+ main .github {
+    background: black;
+    line-height:35px;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+}
+main .fagithub {
+    color: white;
+    font-size: 25px;
+ }
+main .linkedin {
+    background: #0077b5;
+    line-height:40px;
+    text-align: center;
+}
+main .falinkedin{
+    color: white;
+    font-size: 25px;
+ }
+main .skaydrive {
+    background: #0495e2;
+    line-height:40px;
+    text-align: center;
+    
+}
+main .faskaydrive {
+    color: white;
+    font-size: 25px;
+}
+
+/* portafolio imagenes*/
+main .ima {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main section img {
+    border: 5px solid #B4B1B1;
+}
+
+main section .img1 {
+    border: 5px solid black;
+}
+main article {
+    position: relative;
+    align-items: center;
+    width: 305px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+main article figure{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+main .hover {
+    position: absolute;
+    width: 295px;;
+    height: 190px;
+    margin-top: 5px;
+    margin-left: 5px;
+    z-index: 5;
+    color: rgb(224, 204, 204);
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+/*dando estilos al hover1*/
+main article:hover .hover{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0,0,0,.5);
+    flex-direction: column;
+    padding: 9px 9px 22px 10px;
+}
+
+main .hover ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .hover li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5px;
+    width: 50px;
+    height: 25px;
+    border-radius: 12.5px;
+    background-color: #4c2358;
+}
+
+main .hover span{
+    margin-top: 5px;
+}
+
+main section .habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+main section .habi {
+    width: 50%;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+main .habi h3 {
+    font-size: 13px;
+    font-weight: bold;
+    width: 60px;
+}
+
+main section .uno{
+    position: relative;
+    width: 70%;
+    height: 20px;
+    border-radius: 11px;
+    background-color: #4c2358;
+    z-index: 1;
+}
+
+main section .dos{
+    position: absolute;
+    width: 40%;
+    height: 20px;
+    border-radius: 9.5px;
+    background-color: #42704e;
+    z-index: 5;
+}
+main section .css3{
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    border-radius: 9.5px;
+    background-color: #42704e;
+    z-index: 5;
+}
+main section .rwd{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    border-radius: 9.5px;
+    background-color: #42704e;
+    z-index: 5;
+}
+main section .java{
+    position: absolute;
+    width: 30%;
+    height: 20px;
+    border-radius: 9.5px;
+    background-color: #42704e;
+    z-index: 5;
+}
+main section .python{
+    position: absolute;
+    width: 60%;
+    height: 20px;
+    border-radius: 9.5px;
+    background-color: #42704e;
+    z-index: 5;
+}
+main section .express{
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    border-radius: 9.5px;
+    background-color: #42704e;
+    z-index: 5;
+}
+/*dando estilos al formulario*/
+
+.contac {
+    width: 100%;
+    display: flex;
+}
+.contac .div-formulario {
+    width: 80%;
+    border-right: solid 1px green;
+    padding-right: 20px;
+}
+.contac .form-formulario{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contac .form-formulario div:nth-child(odd){
+    padding-right: 20px;
+}
+.contac .form-formulario div{
+    width: 50%;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.contac .form-formulario label {
+    display: block;
+    margin-bottom: 8px;
+}
+.contac .form-formulario input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+footer a{
+    color: white;
+}
+
+
+
+
+
+
+
